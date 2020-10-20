@@ -37,9 +37,10 @@ const Layout = ({ children }) => {
         <footer style={{
           marginTop: `2rem`
         }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <div className="contact">
+            <a href="tel:+380979030376">+380 (97) 903 03 76</a>
+            <a href="https://goo.gl/maps/2C9NniUBrrkDkZfd9" target="blank">вулиця Василя Тютюнника, 51, Київ, 02000</a>
+          </div>
         </footer>
       </div>
     </>
